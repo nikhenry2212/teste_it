@@ -1,10 +1,143 @@
 {
   "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "dateManufacturing": "11/12/2023",
+      "enumaration": "liters",
+      "price": "R$ 10,00",
+      "productName": "Niko",
+      "productPerishable": "true",
+      "quantity": "2.000",
+      "validyDate": "11/12/2023",
+      "id": "323d"
+    },
+    {
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },
+    {
+      "id": "a1d3",
+      "productName": "Coca cola",
+      "enumaration": "liters",
+      "quantity": "1.000",
+      "price": "R$ 10,00",
+      "productPerishable": "true",
+      "validyDate": "25/07/1993",
+      "dateManufacturing": "25/07/1992"
+    },
+    {
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },{
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    }
   ]
 }

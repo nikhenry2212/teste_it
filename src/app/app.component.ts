@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-root',
@@ -14,8 +17,10 @@ import { CommonModule } from '@angular/common';
   imports: [
     RouterOutlet,
     MatSlideToggleModule,
+    MatSnackBarModule,
     CreateComponent,
     ListComponent,
+    HttpClientModule,
     HeaderComponent,
     MatToolbarModule,
   ],

@@ -1,2 +1,23 @@
-<h3>HEROES</h3>
-<p>Get your heroes here</p>
+<div class="container">
+
+  <div class="container-card" *ngFor="let product of products">
+    <mat-card class="example-card" appearance="outlined">
+      <mat-card-header>
+        <mat-card-title>Produto</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>Nome produto: {{product.productName}}</p>
+        <p>Enumeração: {{product.enumaration}}</p>
+        <p>Quantidade: {{product.quantity}}</p>
+        <p>Perecível: {{product.productPerishable}}</p>
+        <p>Data de validade: {{product.validyDate}}</p>
+        <p>Data de fabricação: {{product.dateManufacturing}}</p>
+      </mat-card-content>
+      <mat-card-footer class="example-card-footer">
+        <button type="submit"  mat-raised-button color="primary">Atualizar</button>
+        <button type="submit"  mat-raised-button color="warn">Deletar</button>
+
+      </mat-card-footer>
+    </mat-card>
+  </div>
+</div>
