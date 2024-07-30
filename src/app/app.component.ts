@@ -4,14 +4,23 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { CreateComponent } from './pages/create/create.component';
 import { ListComponent } from './pages/list/list.component';
 import { HeaderComponent } from './components/header/header.component';
-import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatSlideToggleModule, CreateComponent,ListComponent,HeaderComponent, MatToolbarModule],
+  imports: [
+    RouterOutlet,
+    MatSlideToggleModule,
+    CreateComponent,
+    ListComponent,
+    HeaderComponent,
+    MatToolbarModule,
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'my_teste_it';
