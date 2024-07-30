@@ -7,15 +7,16 @@
       </mat-card-header>
       <mat-card-content>
         <p>Nome produto: {{product.productName}}</p>
-        <p>Enumeração: {{product.enumaration}}</p>
-        <p>Quantidade: {{product.quantity}}</p>
+        <!-- <p>Enumeração: {{product.enumaration}}</p> -->
+        <p>Quantidade: {{product.quantity}} {{product.enumaration}}</p>
         <p>Perecível: {{product.productPerishable}}</p>
         <p>Data de validade: {{product.validyDate}}</p>
         <p>Data de fabricação: {{product.dateManufacturing}}</p>
       </mat-card-content>
       <mat-card-footer class="example-card-footer">
         <button type="submit"  mat-raised-button color="primary">Atualizar</button>
-        <button type="submit"  mat-raised-button color="warn">Deletar</button>
+        <button type="submit"  mat-raised-button (click)="deleteProduct(product.id)" color="warn">Deletar</button>
+        <!-- <button mat-raised-button color="warn" (click)="deleteCard(louvor.idLouvor)">deletar</button> -->
 
       </mat-card-footer>
     </mat-card>

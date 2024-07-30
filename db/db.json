@@ -1,14 +1,24 @@
 {
   "posts": [
     {
-      "dateManufacturing": "11/12/2023",
-      "enumaration": "liters",
-      "price": "R$ 10,00",
-      "productName": "Niko",
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
       "productPerishable": "true",
-      "quantity": "2.000",
-      "validyDate": "11/12/2023",
-      "id": "323d"
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
+    },
+    {
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
+      "quantity": "1.000",
+      "price": "R$ 100,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
     },
     {
       "id": "0d9a",
@@ -21,14 +31,14 @@
       "dateManufacturing": "25/01/1993"
     },
     {
-      "id": "a1d3",
-      "productName": "Coca cola",
-      "enumaration": "liters",
+      "id": "0d9a",
+      "productName": "Nik",
+      "enumaration": "kg",
       "quantity": "1.000",
-      "price": "R$ 10,00",
+      "price": "R$ 100,00",
       "productPerishable": "true",
-      "validyDate": "25/07/1993",
-      "dateManufacturing": "25/07/1992"
+      "validyDate": "25/01/2024",
+      "dateManufacturing": "25/01/1993"
     },
     {
       "id": "0d9a",
@@ -39,7 +49,8 @@
       "productPerishable": "true",
       "validyDate": "25/01/2024",
       "dateManufacturing": "25/01/1993"
-    },{
+    },
+    {
       "id": "0d9a",
       "productName": "Nik",
       "enumaration": "kg",
@@ -48,96 +59,26 @@
       "productPerishable": "true",
       "validyDate": "25/01/2024",
       "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
+    },
+    {
+      "id": "c99a",
+      "productName": "Shampoo",
+      "enumaration": "units",
+      "quantity": "2",
+      "price": "R$ 15,00",
+      "productPerishable": "false",
+      "validyDate": "30/07/2024",
+      "dateManufacturing": "30/07/2024"
+    },
+    {
+      "id": "c2b2",
+      "productName": "Café",
+      "enumaration": "und",
+      "quantity": "2",
+      "price": "R$ 30,00",
       "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
-    },{
-      "id": "0d9a",
-      "productName": "Nik",
-      "enumaration": "kg",
-      "quantity": "1.000",
-      "price": "R$ 100,00",
-      "productPerishable": "true",
-      "validyDate": "25/01/2024",
-      "dateManufacturing": "25/01/1993"
+      "validyDate": "29/09/2024",
+      "dateManufacturing": "19/07/2019"
     }
   ]
 }

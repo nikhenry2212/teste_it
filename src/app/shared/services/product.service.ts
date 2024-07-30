@@ -26,4 +26,9 @@ export class ProductService {
       return obj
     }))
   }
+
+  deleteProduct(id:any): Observable<any>{
+     return this.http.delete<void>(`${this.url}/${id}`)
+
+  }
 }

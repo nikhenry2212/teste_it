@@ -17,14 +17,20 @@ import { CommonModule } from '@angular/common';
 })
 export class ListComponent implements OnInit {
   products: any
-  longText = `The Chihuahua is a Mexican breed of toy dog. It is named for the
-  Mexican state of Chihuahua and is among the smallest of all dog breeds. It is
-  usually kept as a companion animal or for showing.`;
 
   constructor(public product: ProductService) {
 
   }
+deleteProduct(id: any){
+  console.log(id);
 
+  this.product.deleteProduct(id).subscribe((data)=> {
+    console.log(data);
+    console.log(id);
+
+
+  })
+}
   ngOnInit(): void {
     this.product.getProduct().subscribe((res: any)=> {
       this.products = res
