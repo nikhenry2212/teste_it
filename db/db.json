@@ -128,6 +128,16 @@
       "productPerishable": true,
       "validyDate": "11/12/1234",
       "dateManufacturing": "11/12/1233"
+    },
+    {
+      "id": "5e8e",
+      "productName": "Coca Cola",
+      "enumaration": "lt",
+      "quantity": "1.000",
+      "price": "R$ 5,00",
+      "productPerishable": "true",
+      "validyDate": "11/12/2014",
+      "dateManufacturing": "11/12/2013"
     }
   ]
 }

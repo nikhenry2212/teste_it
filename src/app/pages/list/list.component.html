@@ -35,10 +35,18 @@
           <mat-label>Nome</mat-label>
           <input matInput formControlName="productName">
         </mat-form-field>
+
+
         <mat-form-field class="example-full-width" appearance="fill">
-          <mat-label>Enumeração</mat-label>
-          <input matInput formControlName="enumaration">
+          <mat-label>Unidade de medida</mat-label>
+          <mat-select formControlName="enumaration">
+            <mat-option *ngFor="let enumaration of enumarations" [value]="enumaration.value">
+              {{enumaration.viewValue}}
+            </mat-option>
+          </mat-select>
         </mat-form-field>
+
+
         <mat-form-field class="example-full-width" appearance="fill">
           <mat-label>Quantidade</mat-label>
           <input matInput formControlName="quantity">

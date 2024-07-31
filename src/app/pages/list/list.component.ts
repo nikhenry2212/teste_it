@@ -1,4 +1,4 @@
-import { Component, NO_ERRORS_SCHEMA, OnInit } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA, OnInit } from '@angular/core';
 import { ProductService } from '../../shared/services/product.service';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatCardModule } from '@angular/material/card';
@@ -17,6 +17,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 // import { BooleanToSimNaoPipe } from '../../shared/pipe/boolean-to-sim-nao.pipe';
 import { SharedModule } from '../../shared/shared.module';
+
 
 
 @Component({
@@ -45,6 +46,7 @@ import { SharedModule } from '../../shared/shared.module';
     MatRadioModule,
     CommonModule],
   providers: [],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   templateUrl: './list.component.html',
   styleUrl: './list.component.css'
 })
@@ -62,6 +64,11 @@ export class ListComponent implements OnInit {
 
   }
 
+  enumarations: any[] = [
+    { value: 'lt', viewValue: 'Litros' },
+    { value: 'kg', viewValue: 'Quilogramas' },
+    { value: 'und', viewValue: 'Unidade' }
+  ];
 
 
 
