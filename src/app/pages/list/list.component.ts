@@ -55,6 +55,7 @@ export class ListComponent implements OnInit {
   selectedProduct: any = null;
   selectedIsProduct = false
   productForm!: FormGroup;
+  suffix: string = "";
 
   constructor(
     public product: ProductService,
@@ -97,6 +98,7 @@ export class ListComponent implements OnInit {
   }
 
 
+
   onUpdate() {
     if (this.productForm.valid) {
       const updatedProduct = this.productForm.value;
@@ -120,6 +122,15 @@ export class ListComponent implements OnInit {
       );
     }
   }
+
+
+
+
+
+
+
+
+
   ngOnInit(): void {
     this.product.getProduct().subscribe((res: any) => {
       this.products = res
@@ -138,4 +149,6 @@ export class ListComponent implements OnInit {
     });
 
   }
+
+
 }

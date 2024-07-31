@@ -59,3 +59,33 @@ Formulário de criação de produto ✔
    Utiliza uma UI, como Botstrap, Material ou Ant Design. ✔
 
 
+  ## O que foi priorizado?
+    O CRUD
+
+     Create = A criação do formulário
+
+     Read = A leitura que está vindo do DbJson
+
+     Update =  Editar dos dados do DbJson
+
+     Delete = O deletar da DbJson 
+
+     Algumas validações do formulário
+
+     Rotas, Componentes, Services, Modulos, Pipe Angular
+
+     Tentei fazer algo parecido com itaú.
+
+
+  ## O que foi não foi entregue?
+    Não conseguir entender muito como fazer a diferença entre und, lt, kg.
+
+    Não consegui entragar o mesmo formulario com as validações necessárias no Update.
+
+    
+
+
+
+
+
+
