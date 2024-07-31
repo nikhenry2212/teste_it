@@ -14,11 +14,49 @@
         <p>Data de fabricação: {{product.dateManufacturing}}</p>
       </mat-card-content>
       <mat-card-footer class="example-card-footer">
-        <button type="submit"  mat-raised-button color="primary">Atualizar</button>
+        <button type="submit"  mat-raised-button color="primary" (click)="onEdit(product)">Atualizar</button>
         <button type="submit"  mat-raised-button (click)="deleteProduct(product.id)" color="warn">Deletar</button>
         <!-- <button mat-raised-button color="warn" (click)="deleteCard(louvor.idLouvor)">deletar</button> -->
 
       </mat-card-footer>
     </mat-card>
   </div>
+
+
+  <!-- Formulário de Edição -->
+<mat-card *ngIf="selectedIsProduct" class="container-card" appearance="outlined">
+  <mat-card-header>
+    <mat-card-title>Editar Produto</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form [formGroup]="productForm" (ngSubmit)="onUpdate()">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Nome</mat-label>
+        <input matInput formControlName="productName">
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Enumeração</mat-label>
+        <input matInput formControlName="enumaration">
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Quantidade</mat-label>
+        <input matInput formControlName="quantity">
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Perecível</mat-label>
+        <input matInput formControlName="productPerishable">
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Data de validade</mat-label>
+        <input matInput formControlName="validyDate">
+      </mat-form-field>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Data de fabricação</mat-label>
+        <input matInput formControlName="dateManufacturing">
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Salvar</button>
+      <button mat-raised-button color="warn" (click)="selectedProduct = null">Cancelar</button>
+    </form>
+  </mat-card-content>
+</mat-card>
 </div>
