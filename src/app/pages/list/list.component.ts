@@ -15,6 +15,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
+// import { BooleanToSimNaoPipe } from '../../shared/pipe/boolean-to-sim-nao.pipe';
+import { SharedModule } from '../../shared/shared.module';
 
 
 @Component({
@@ -26,6 +28,7 @@ import { MatRadioModule } from '@angular/material/radio';
     MatChipsModule,
     MatButtonModule,
     MatSnackBarModule,
+    SharedModule,
     HttpClientModule,
     // BrowserModule,
     RouterLink,
@@ -68,6 +71,9 @@ export class ListComponent implements OnInit {
 
     this.product.deleteProduct(id).subscribe((data) => {
       console.log(data);
+      this.snackBar.open('Produto excluído com sucesso', 'Fechar', {
+        duration: 3000
+      });
       document.location.reload();
     }, err => {
       console.log('====================================');

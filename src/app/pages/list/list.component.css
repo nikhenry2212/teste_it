@@ -7,6 +7,7 @@
   padding-bottom: 24px;
   /* background-color: aqua; */
   justify-content: center;
+  margin-bottom: 16px;
 }
 .container-card {
   display: flex;
@@ -14,7 +15,16 @@
   gap: 16px; /* Espaço entre os cartões */
   justify-content: center;
   padding-top: 16px;
-  flex-direction: row;
+  flex-direction: column;
+}
+
+.container-card-update {
+  /* margin-top: 16px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* padding-top: 16px; */
+  flex-direction: column;
 }
 .example-card-footer{
   display: flex;
