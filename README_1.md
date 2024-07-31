@@ -20,8 +20,8 @@ Formulário de criação de produto ✔
   Quantidade [numérico, varia conforme a unidade de medida]  Ainda não consegui entender os decimais ✖
   Preço [Monetário] ✔
   Produto perecível [checkbox, obrigarorio] ✔
-  Data de validade [Obrigatorio se o produto for perecível] ✖ Falta implementar 
-  Data de Fabricação [Não pode ser maior que a data de validade] ✖ Falta implementar
+  Data de validade [Obrigatorio se o produto for perecível] ✔ 
+  Data de Fabricação [Não pode ser maior que a data de validade] ✔ 
   Botão Salvar [Só pode acionar se os campos obrigatórios estiverem válidos] ✔
   Botão Cancelar [Direciona para rota de lista]
 

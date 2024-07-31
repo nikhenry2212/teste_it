@@ -48,6 +48,86 @@
       "productPerishable": "true",
       "validyDate": "25/01/2025",
       "dateManufacturing": "25/01/2023"
+    },
+    {
+      "id": "d079",
+      "productName": "Niko",
+      "enumaration": "und",
+      "quantity": "22",
+      "price": "R$ 10,00",
+      "productPerishable": true,
+      "validyDate": "11/12/2023",
+      "dateManufacturing": "11/12/2024"
+    },
+    {
+      "id": "ebd5",
+      "productName": "Água Mineral",
+      "enumaration": "und",
+      "quantity": "2",
+      "price": "R$ 5,00",
+      "productPerishable": true,
+      "validyDate": "23/12/2024",
+      "dateManufacturing": "21/12/2024"
+    },
+    {
+      "id": "2eea",
+      "productName": "Pães",
+      "enumaration": "und",
+      "quantity": "2",
+      "price": "R$ 5,00",
+      "productPerishable": true,
+      "validyDate": "23/12/2024",
+      "dateManufacturing": "24/12/2024"
+    },
+    {
+      "id": "d11b",
+      "productName": "Arroz",
+      "enumaration": "und",
+      "quantity": "",
+      "price": "R$ 0,01",
+      "productPerishable": true,
+      "validyDate": "11/12/2009",
+      "dateManufacturing": "11/12/2024"
+    },
+    {
+      "id": "792d",
+      "productName": "Mel",
+      "enumaration": "und",
+      "quantity": "10",
+      "price": "R$ 100,00",
+      "productPerishable": true,
+      "validyDate": "11/12/2009",
+      "dateManufacturing": "11/12/2010"
+    },
+    {
+      "id": "0709",
+      "productName": "Carne",
+      "enumaration": "und",
+      "quantity": "2",
+      "price": "R$ 0,10",
+      "productPerishable": true,
+      "validyDate": "11/12/2010",
+      "dateManufacturing": "11/12/2011"
+    },
+    {
+      "id": "5689",
+      "productName": "Fanta",
+      "enumaration": "und",
+      "quantity": "12",
+      "price": "R$ 50,00",
+      "productPerishable": true,
+      "validyDate": "Invalid Date",
+      "dateManufacturing": "Invalid Date"
+    },
+    {
+      "id": "3b21",
+      "productName": "Garrafa",
+      "enumaration": "und",
+      "quantity": "122",
+      "price": "R$ 100,00",
+      "productPerishable": true,
+      "validyDate": "11/12/1234",
+      "dateManufacturing": "11/12/1233"
     }
   ]
 }
