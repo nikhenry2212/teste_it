@@ -28,6 +28,26 @@
       "productPerishable": "true",
       "validyDate": "29/09/2024",
       "dateManufacturing": "19/07/2019"
+    },
+    {
+      "id": "90fd",
+      "productName": "Azeite",
+      "enumaration": "und",
+      "quantity": "2",
+      "price": "R$ 45,00",
+      "productPerishable": "true",
+      "validyDate": "11/12/2014",
+      "dateManufacturing": "11/12/2013"
+    },
+    {
+      "id": "87f5",
+      "productName": "Leite",
+      "enumaration": "lt",
+      "quantity": "1.000",
+      "price": "R$ 5,00",
+      "productPerishable": "true",
+      "validyDate": "25/01/2025",
+      "dateManufacturing": "25/01/2023"
     }
   ]
 }
